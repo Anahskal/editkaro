@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Editkaro</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="logo" href="index.html">Editkaro</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html" aria-current="page">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="portfolio-intro">
+      <h1>Portfolio</h1>
+      <p>Click any video to watch in the player. Filter by type to quickly find the edits you need.</p>
+      <div class="filters" role="tablist">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="short">Short Form</button>
+        <button class="filter-btn" data-filter="long">Long Form</button>
+        <button class="filter-btn" data-filter="ecom">eCommerce Ads</button>
+        <button class="filter-btn" data-filter="football">Football Edits</button>
+        <button class="filter-btn" data-filter="gaming">Gaming</button>
+      </div>
+    </section>
+
+    <section id="gallery" class="video-gallery">
+      <!-- Each item: data-category and data-video (YouTube id or video url) -->
+      <article class="video-card" data-category="short" data-video="qxiYnqJDT6w">
+        <img src="assets/thumb1.jpeg" alt="Short clip 1" />
+        <div class="meta"><strong>Short Form — Food Edit</strong><span>15s</span></div>
+      </article>
+
+      <article class="video-card" data-category="ecom" data-video="O-JXUhhIRHU">
+        <img src="assets/thumb2.jpeg" alt="ecommerce ad 1" />
+        <div class="meta"><strong>eCommerce — Product Launch</strong><span>30s</span></div>
+      </article>
+
+      <article class="video-card" data-category="football" data-video="93QHqmnz8P0">
+        <img src="assets/thumb3.jpeg" alt="football edit" />
+        <div class="meta"><strong>Football Highlights</strong><span>1:10</span></div>
+      </article>
+
+      <article class="video-card" data-category="gaming" data-video="vQqU0F8vTOE">
+        <img src="assets/thumb4.jpeg" alt="gaming montage" />
+        <div class="meta"><strong>Gaming Montage</strong><span>2:05</span></div>
+      </article>
+
+      <article class="video-card" data-category="long" data-video="rTV-56QagQM">
+        <img src="assets/thumb5.jpeg" alt="documentary style" />
+        <div class="meta"><strong>Documentary Style</strong><span>6:30</span></div>
+      </article>
+    </section>
+  </main>
+
+  <!-- Modal player -->
+  <div id="videoModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">✕</button>
+      <div id="modalPlayer" class="modal-player"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>Editkaro</strong><p>Social media marketing & video editing</p></div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div><p>© <span id="year2"></span> Editkaro</p></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

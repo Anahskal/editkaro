@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Editkaro — Social Media Marketing & Video Editing</title>
+  <meta name="description" content="Editkaro.in — Social media marketing & video editing agency. Portfolio, services, contact & email collector." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body style="background-color: #9eceff;">
+    <header class="site-header">
+    <div class="container header-row">
+      <a class="logo" href="index.html">Editkaro</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>We craft scroll-stopping videos & social strategies</h1>
+          <p>Create viral short-form clips, polished long-form edits, ads & more. We help brands convert views into customers.</p>
+          <div class="hero-cta">
+            <a class="btn" href="portfolio.html">See Portfolio</a>
+            <a class="btn ghost" href="contact.html">Get a Quote</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <!-- placeholder video embed -->
+          <div class="video-thumbnail" aria-hidden="true">
+            <img src="assets/placeholder-video.jpeg" alt="Editkaro sample edit" />
+            <div class="play-overlay">▶</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services container">
+      <h2>Our Services</h2>
+      <div class="grid-3">
+        <article class="card">
+          <h3>Short-form Videos</h3>
+          <p>TikTok, Instagram Reels, YouTube Shorts optimized for engagement & retention.</p>
+        </article>
+        <article class="card">
+          <h3>Long-form Editing</h3>
+          <p>Polished storytelling edits for YouTube & brand videos with color grading & sound design.</p>
+        </article>
+        <article class="card">
+          <h3>Ads & Funnels</h3>
+          <p>Performance-driven creative cuts and A/B-ready variants for FB/IG/YouTube ads.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="email-collector container">
+      <h2>Join our mailing list</h2>
+      <p>Get monthly tips, free templates and client showcases. No spam, unsubscribe anytime.</p>
+      <form id="emailForm" class="inline-form" data-form-type="email">
+        <input id="emailInput" name="email" type="email" placeholder="Your email address" required />
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+      <div id="emailFormMsg" class="form-msg" aria-live="polite"></div>
+    </section>
+
+    <section class="featured-work container">
+      <h2>Featured Work</h2>
+      <div class="featured-grid">
+        <!-- links to portfolio page with category tags -->
+        <a class="mini-card" href="portfolio.html#shortform">
+          <img src="assets/thumb1.jpeg" alt="Short form edit" />
+          <strong>Short Form — Food Edit</strong>
+        </a>
+        <a class="mini-card" href="portfolio.html#ecommerce">
+          <img src="assets/thumb2.jpeg" alt="Ecommerce ad" />
+          <strong>eCommerce — Product Ad</strong>
+        </a>
+        <a class="mini-card" href="portfolio.html#football">
+          <img src="assets/thumb3.jpeg" alt="Football edit" />
+          <strong>Football Edits — Highlight Reel</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Editkaro</strong>
+        <p>Social media marketing & video editing</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div>
+        <p>© <span id="year"></span> Editkaro</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
