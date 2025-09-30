@@ -1,7 +1,7 @@
 # Editkaro.in – Social Media Marketing & Video Editing Agency Website
 
-🔗 **Live Website**: [https://anahskal.github.io/editkaro/](https://username.github.io/editkaro/)  
-📁 **GitHub Repository**: [https://github.com/anahskal/editkaro](https://github.com/username/editkaro)
+🔗 **Live Website**: [https://anahskal.github.io/editkaro/](https://anahskal.github.io/editkaro/)  
+📁 **GitHub Repository**: [https://github.com/anahskal/editkaro](https://github.com/anahskal/editkaro)
 
 ---
 
